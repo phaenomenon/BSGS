@@ -36,6 +36,7 @@ We have to solve P = k.G, we know that k lies in the range ]k1,k2], G is the Sec
 ```
  # Baby Step number
  # With enough memory, the best choice is m = floor(sqrt(k2-k1)) for a single key
+ # m cannot exceed 1,000,000,000
  m = Baby Step number
  Compute a table of [G,2.G,3.G,..,b.G,...,m.G]
  S = P - k1.G
